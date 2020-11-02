@@ -895,13 +895,3 @@ plt.show()
 In the graph above the blue represents $\Delta\mathrm{Bias}$ when compared to the regular historical bias and the orange represents when compared to the mean reverted bias. It seems from the line fits that there is a positive trend between the percent of a state's population with a bachelor's degree or higher and $\Delta\mathrm{Bias}$. But it seems like that relationship is fairly weak, so I don't think education alone is enough to explain the variation in $\Delta\mathrm{Bias}$. If I had to make an educated guess, I would think that the major methodology change that lots of pollsters made to weight by education in their polls is the main reason for the large variation. However, the choices that polling firms make in how to weight by education are unique to that polling firm so perhaps that's why the relationship is fairly weak in the graph above. Also, accounting for education in polling is a much newer practice that only came to be seen as important after 2016 so I imagine the polling industry has not come to a consensus on what the standard way to do that is, especially when trying to account for likely-voters.
 
 I don't want this graph to take away from my main point in this article though, shy voters don't exist. I showed it earlier that $\Delta\mathrm{Bias}$ could very reasonably be said to be 0, and is definitely very close to 0. I want everyone to say it with me __shy voters don't exist__. Pollsters/modelers/handicappers have been saying for a while now, there hasn't been historical evidence to suggest that shy voters have ever really been present in past elections, we can largely attribute Trump's victory in 2016 to a late shift in polls and a lack of education weighting, and now there's this blog post that also agrees with everyone else that shy voters don't exist. If you were previously worried about the existence of shy voters and are now unsure of what causes errors in political polling I suggest that you look into [sampling error](https://en.wikipedia.org/wiki/Sampling_error), [coverage error](https://en.wikipedia.org/wiki/Coverage_error), and [regular ole mistakes](https://www.nbcnews.com/politics/2020-election/des-moines-register-pulls-gold-standard-iowa-poll-after-potential-n1128366).
-
-<script>
-    window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-            }
-        };
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
