@@ -1,6 +1,5 @@
 baseurl = "https://www.timothycwillard.com/"
 title = "Tim's Blog"
-copyright = "Copyright &copy; 2019 - Author Name"
 canonifyurls = true
 theme = "hugo-kiera"
 
@@ -10,24 +9,17 @@ summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
 
-#disqusShortname = "myShortName"
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
-    name = "Example"
-    github = "funkydan2"
-    #gitlab = "username"
-    #linkedin = "username"
-    #facebook = "username"
-    twitter = "ds_says"
-    #instagram = "username"
-    #stackoverflow = "username"
-    #youtube = "user/username" # or channel/channelname
-    #devto = "username"
+    name = "Tim Willard"
+    github = "TimothyWillard"
+    twitter = "TimTimWillard"
+
 
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
-    description = "Kiera: A Hugo theme for creative and technical writing."
+    tagline = "Just a few of my random musings."
+    description = "Tim's Blog - Just a few of my random musings."
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     #favicon = ""
@@ -35,21 +27,22 @@ pygmentsCodeFences = true
     #utterancesIssueTerm = "pathname"
     #homepageLength = 10
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
-    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    math = true
     #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
     #disableDarkModeCSS = false # disables css style for users using dark-mode
 
 # uncomment to enable the Tags link on the main toolbar
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Tags"
-#    url = "/tags"
-#    weight = 1
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 1
 
 # uncomment to enable the Categories link on the main toolbar
-#  [[menu.main]]
-#    identifier = "categories"
-#    name = "Categories"
-#    url = "/categories"
-#    weight = 1
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 1

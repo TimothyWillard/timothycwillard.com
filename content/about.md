@@ -1,18 +1,11 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Timothy Willard"
+date = "2020-11-01"
 menu = "main"
 weight = "20"
 meta = "false"
 +++
 
-Hugo is a static site engine written in Go. <i class="far fa-clipboard"></i>
+Hey there! I'm Tim Willard, a senior at [NC State](https://www.ncsu.edu/) majoring physics and math, and minoring in materials science. I'm interested in quantum chemistry and, as of late, quantum computing. I currently do research on [electron-hole liquid phase transitions with Dr. Kemper](https://www.physics.ncsu.edu/kemperlab/) and I have worked on [DFT studies of gas adsorption to vacancy defects in carbon nanotubes with Dr. Liu](https://physics.georgetown.edu/amy-liu/#). This blog is mostly just a place for my random musings, probably going to mostly consist of math, cooking, physics, and elections, in no particular order. Enjoy and feel free to tweet me at [@TimTimWillard](https://twitter.com/TimTimWillard)!
 
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+![Tim Willard](/IMG-1277.JPG)
